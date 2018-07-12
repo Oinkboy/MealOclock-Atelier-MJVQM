@@ -1,18 +1,10 @@
 {
-    "name": "christophe/s07-meal-oclock-christophe-oclock",
-    "description": "Notre projet MealOclock by Journey",
+    "name": "mint/s07-meal-oclock-atelier-mjvqm",
     "authors": [
         {
-            "name": "ChristopheOclock",
-            "email": "christophe@oclock.io"
+            "name": "Max'-C",
+            "email": "maxime.cohier@gmail.com"
         }
     ],
-    "require": {
-        "altorouter/altorouter": "^1.2"
-    },
-    "autoload": {
-      "psr-4": {
-        "MealOclock\\": "app/"
-      }
-    }
+    "require": {}
 }
