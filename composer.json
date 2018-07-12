@@ -1,0 +1,18 @@
+{
+    "name": "christophe/s07-meal-oclock-christophe-oclock",
+    "description": "Notre projet MealOclock by Journey",
+    "authors": [
+        {
+            "name": "ChristopheOclock",
+            "email": "christophe@oclock.io"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^1.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "MealOclock\\": "app/"
+      }
+    }
+}
