@@ -1,4 +1,4 @@
-body {
+*body {
   font-family: 'Miriam Libre', sans-serif;
   color: #4b3d3d;
 }
@@ -60,7 +60,7 @@ header{
 }
 
 main{
-  margin-top:300px;
+  top: 500px;
   position:relative;
   z-index:10;
   background-color:white;
@@ -68,4 +68,9 @@ main{
 
 .test .text{
   padding: 20px 50px;
+}
+
+.img-container{
+  display:flex;
+  align-content: center;
 }
