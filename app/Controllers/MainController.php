@@ -7,7 +7,9 @@ class MainController extends CoreController
 
   public function home()
   {
-    echo 'Bon ba, je me lance, moi la HOME !!';
+    require(dirname(__DIR__).'/Views/header.php');
+    require(dirname(__DIR__).'/Views/home.php');
+    require(dirname(__DIR__).'/Views/footer.php');
   }
 
   public function error404()
