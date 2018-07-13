@@ -24,21 +24,21 @@
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                              <li class="nav-item flex-fill p-2 form-li">
+                              <li class="nav-item flex-fill p-3 form-li">
                                     <form class="form-inline flex-fill position-relative">
                                           <i class="fas fa-search ml-3"></i>
                                           <input class="form" type="search" placeholder="" aria-label="Search">
                                     </form>
                               </li>
-                              <li class="nav-item flex-fill p-2 col-sm-4 col-md-6 border">
+                              <li class="nav-item flex-fill p-3 col-sm-4 col-md-6">
                                     <a class="h-100" href="#">
-                                          <img src="public/assets/images/E03-logo.svg" alt="">
+                                          <img src="../docs/todo/E03-logo.svg" alt="">
                                     </a>
                               </li>
-                              <li class="nav-item flex-fill p-2 border">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#"><i class="fas fa-sign-in-alt "></i> Connexion</a>
                               </li>
-                              <li class="nav-item flex-fill p-2 border">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link h-100" href="#"><i class="fas fa-edit"></i> Inscription</a>
                               </li>
 
@@ -48,30 +48,30 @@
             </nav>
             <nav class="collapse navbar-collapse navbar navbar-expand-md navbar-light justify-content-center" id="navbarTogglerDemo02">
                   <!-- Cette partie va automatique être masquée en version mobile -->
-                  <div class="" >
+                  <div class="w-100" >
                         <ul class="navbar-nav">
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">Communautés</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">Evénements</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">Membres</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">Forum</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">&Agrave; table</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#">Blog</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-3">
                                     <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                               </li>
 
