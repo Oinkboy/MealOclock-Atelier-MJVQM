@@ -42,4 +42,4 @@
                   <img class="" src="https://picsum.photos/399/255/" alt="">
                   </div>
             </div>
-     <main>
+      </main>

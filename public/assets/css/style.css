@@ -65,6 +65,7 @@ main{
   position:relative;
   z-index:10;
   background-color:white;
+  margin-bottom: 65px;
 }
 
 .test .text {
@@ -74,6 +75,11 @@ main{
 .img-container{
   display:flex;
   align-content: center;
+}
+
+footer{
+  position:fixed;
+  bottom:0px;
 }
 
 
