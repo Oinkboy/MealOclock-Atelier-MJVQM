@@ -35,7 +35,7 @@
                                           <img src="../docs/todo/E03-logo.svg" alt="">
                                     </a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                             <li class="nav-item flex-fill p-2">
                                     <a class="nav-link d-inline" href="#"><i class="fas fa-sign-in-alt ">Connexion</i></a>
 
                                     <a class="nav-link d-inline" href="#"><i class="fas fa-edit">Inscription</i></a>
