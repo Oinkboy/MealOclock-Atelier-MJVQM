@@ -34,7 +34,7 @@ header nav.navbar {
 #table {
   position: fixed;
   z-index: 0;
-  top: 22%;
+  top: 40%;
 }
 
 .test {
@@ -71,7 +71,8 @@ main {
 }
 
 
-li {
+li
+ {
   border-right: 1px solid #e5e5e5;
 }
 
