@@ -16,32 +16,29 @@
 
 <body>
     <div class="container-fluid">
-    <header>
+    <header class="mb-4">
             <div id="header-band"></div>
-            <nav class="navbar navbar-expand-md navbar-light justify-content-center">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-center">
+            <nav class="navbar navbar-light">
+                  <div class="navbar-collapse justify-content-center">
                         <ul class="nav nav-pills d-flex">
-                              <li class="nav-item p-3" id="burger-menu">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
-                              </li>
+                            </button>
                               <li class="nav-item flex-fill p-2 form-li">
                                     <form class="form-inline flex-fill position-relative">
-                                          <i class="fas fa-search position-absolute ml-3"></i>
-                                          <input class="form-control" type="search" placeholder="" aria-label="Search">
+                                          <i class="fas fa-search ml-3"></i>
+                                          <input class="form" type="search" placeholder="" aria-label="Search">
                                     </form>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-2 col-sm-4 col-md-6 border">
                                     <a class="h-100" href="#">
                                           <img src="public/assets/images/E03-logo.svg" alt="">
                                     </a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-2 border">
                                     <a class="nav-link" href="#"><i class="fas fa-sign-in-alt "></i> Connexion</a>
                               </li>
-                              <li class="nav-item flex-fill p-2">
+                              <li class="nav-item flex-fill p-2 border">
                                     <a class="nav-link h-100" href="#"><i class="fas fa-edit"></i> Inscription</a>
                               </li>
 
@@ -84,18 +81,18 @@
 
       </header>
 
-   
+
 
         <div class="text" id="table">
             <h1>A table</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-    
+
     <main class="">
         <div class="row test">
             <div class="col-lg-3 img-container">
                 <img class="" src="https://picsum.photos/399/255/" alt="">
-            </div>   
+            </div>
             <div class="text col-lg">
                 <h1>Un bon repas ça se partage !</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -108,7 +105,7 @@
         <div class="row test">
             <div class="img-container col-lg-3">
                 <img class="" src="https://picsum.photos/399/255/" alt="">
-            </div>   
+            </div>
             <div class="text col-lg">
                 <h1>Un bon repas ça se partage !</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -121,7 +118,7 @@
          <div class="row test">
             <div class="img-container col-lg-3">
                 <img class="" src="https://picsum.photos/399/255/" alt="">
-            </div>   
+            </div>
             <div class="text tex col-lg">
                 <h1>Un bon repas ça se partage !</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
