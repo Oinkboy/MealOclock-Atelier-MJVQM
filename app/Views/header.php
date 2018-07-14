@@ -49,31 +49,17 @@
                         <!-- Cette partie va automatique être masquée en version mobile -->
                         <div class="w-100" >
                               <ul class="navbar-nav">
+                                    <?php foreach ($array_vars['array_pagesModel'] as $pagesModel):?>
                                     <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">Communautés</a>
+                                          <a class="nav-link" href="#"><?= $pagesModel->getTitle(); ?></a>
                                     </li>
-                                    <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">Evénements</a>
-                                    </li>
-                                    <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">Membres</a>
-                                    </li>
-                                    <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">Forum</a>
-                                    </li>
-                                    <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">&Agrave; table</a>
-                                    </li>
-                                    <li class="nav-item flex-fill p-3">
-                                          <a class="nav-link" href="#">Blog</a>
-                                    </li>
+                                    <?php endforeach; ?>
                                     <li class="nav-item flex-fill p-3">
                                           <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
                                     </li>
                                     <li class="nav-item flex-fill p-3">
                                           <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
                                     </li>
-
                               </ul>
                         </div>
                   </nav>

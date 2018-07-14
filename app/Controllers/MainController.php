@@ -9,4 +9,10 @@ class MainController extends CoreController
   {
     echo 'Je suis la page d\'erreur 404 !';
   }
+
+  public function home()
+  {
+      $this->show('home');
+  }
+
 }

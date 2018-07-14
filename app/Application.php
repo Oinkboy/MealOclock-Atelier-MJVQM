@@ -81,7 +81,8 @@ class Application
   // est ammenée à l'utiliser
   private function defineRoutes()
   {
-    $this->router->map('GET', '/', 'MainController#home', 'main_home');
-    $this->router->map('GET', '/community/[i:id]', 'CommunityController#community', 'community_home');
+    $this->router->map('GET', '/', 'MainController#home', 'main_show');
+    $this->router->map('GET', '/community/[i:id]', 'CommunityController#community', 'community_show');
+    $this->router->map('GET', '/events', 'EventsController#show', 'events_show');
   }
 }

@@ -55,6 +55,6 @@ class EventsModel
     /* Reviens à faire */
     // $pdo = Database::getPDO();
     // $pdoStatement = $pdo->query($sql);
-    return $pdoStatement->fetchAll(PDO::FETCH_CLASS, 'EventModel');
+    return $pdoStatement->fetchAll(PDO::FETCH_CLASS, 'EventsModel');
   }
 }

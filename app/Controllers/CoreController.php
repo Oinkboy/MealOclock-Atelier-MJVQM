@@ -18,10 +18,10 @@ abstract class CoreController
     echo json_encode($to_display);
   }
 
-  final protected function home()
+  final protected function show($page)
   {
     require(dirname(__DIR__).'/Views/header.php');
-    require(dirname(__DIR__).'/Views/home.php');
+    require(__DIR__.'/../Views/'.$page.'.php');
     require(dirname(__DIR__).'/Views/footer.php');
   }
 }
