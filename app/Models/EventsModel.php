@@ -48,13 +48,14 @@ class EventsModel
     public static function findAll()
   {
     // Mise en place du SQL
-    $sql = "SELECT * FROM 'events' ORDER BY 'date' DESC;";
+    $sql = "SELECT * FROM `events` ORDER BY `events`.`date` DESC";
+
     // Je récupere mon objet PDO et j'applique la méthode query dessus
     // j'obtient donc un objet PDOStatement
     $pdoStatement = Database::getPDO()->query($sql);
     /* Reviens à faire */
     // $pdo = Database::getPDO();
     // $pdoStatement = $pdo->query($sql);
-    return $pdoStatement->fetchAll(PDO::FETCH_CLASS, 'EventsModel');
+    return $pdoStatement->fetchAll(PDO::FETCH_CLASS, 'MealOclock\Models\EventsModel');
   }
 }

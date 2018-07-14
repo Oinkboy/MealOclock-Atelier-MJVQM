@@ -12,7 +12,6 @@ class EventsController extends CoreController
         $array_vars_view = [];
         $array_vars_view['array_eventsModel'] = EventsModel::findAll();
         $array_vars_view['array_pagesModel'] = PagesModel::findAll();
-        $this->show('list', $array_vars_view);
+        $this->show('events', $array_vars_view);
     }
-
 }

@@ -3,7 +3,6 @@ body {
   color: #4b3d3d;
 }
 
-
 #header-band {
   width: 100%;
   height: 10px;
@@ -20,7 +19,6 @@ header nav ul li a {
   color: black;
 }
 
-
 header nav.navbar {
   padding: 0;
 }
@@ -28,8 +26,6 @@ header nav.navbar {
 .form-li input {
   border: none;
 }
-
-
 
 #table {
   position: fixed;
@@ -44,7 +40,6 @@ header nav.navbar {
   padding: 20px 0;
 }
 
-
 .test img {
   display: block;
   max-width: 100%;
@@ -52,7 +47,6 @@ header nav.navbar {
 }
 
 header {
-
   position: fixed;
   top: 0;
   left: 0;
@@ -60,11 +54,11 @@ header {
   z-index: 20;
 }
 
-main{
+main {
   top: 500px;
-  position:relative;
-  z-index:10;
-  background-color:white;
+  position: relative;
+  z-index: 10;
+  background-color: white;
   margin-bottom: 65px;
 }
 
@@ -72,18 +66,17 @@ main{
   padding: 20px 50px;
 }
 
-.img-container{
-  display:flex;
+.img-container {
+  display: flex;
   align-content: center;
 }
 
-footer{
-  position:fixed;
-  bottom:0px;
+footer {
+  position: fixed;
+  bottom: 0;
 }
 
-
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   li {
     border-right: 1px solid #e5e5e5;
   }
@@ -91,4 +84,34 @@ footer{
   #navbarTogglerDemo02 div ul li {
     width: 12.5%;
   }
+}
+
+#events-container {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  z-index: 10;
+  position: relative;
+}
+
+#no-border {
+  border: none;
+  background-color: inherit !important;
+}
+
+section {
+  background-color: #eaeaea !important;
+}
+
+.event-details {
+  box-shadow: 0 0 15px -2px #dedede;
+  background-color: #fff;
+  padding: 20px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+h3 {
+  border-bottom: 2px solid #ed754b;
 }

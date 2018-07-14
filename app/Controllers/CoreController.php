@@ -18,7 +18,7 @@ abstract class CoreController
     echo json_encode($to_display);
   }
 
-  final protected function show($page)
+  final protected function show($page, $array_vars = array())
   {
     require(dirname(__DIR__).'/Views/header.php');
     require(__DIR__.'/../Views/'.$page.'.php');

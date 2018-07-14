@@ -83,6 +83,6 @@ class Application
   {
     $this->router->map('GET', '/', 'MainController#home', 'main_show');
     $this->router->map('GET', '/community/[i:id]', 'CommunityController#community', 'community_show');
-    $this->router->map('GET', '/events', 'EventsController#show', 'events_show');
+    $this->router->map('GET', '/events', 'EventsController#all', 'events_show');
   }
 }

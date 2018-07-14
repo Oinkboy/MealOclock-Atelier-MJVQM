@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Sam 14 Juillet 2018 à 09:17
+-- Généré le :  Sam 14 Juillet 2018 à 13:16
 -- Version du serveur :  5.7.20-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.22-0ubuntu0.16.04.1
 
@@ -30,11 +30,19 @@ CREATE TABLE `events` (
   `id` int(11) NOT NULL,
   `title` varchar(42) NOT NULL,
   `description` text NOT NULL,
-  `date` datetime NOT NULL,
+  `date` date NOT NULL,
   `username` varchar(69) NOT NULL,
   `nb_of _place` int(11) NOT NULL,
   `adress` varchar(269) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `events`
+--
+
+INSERT INTO `events` (`id`, `title`, `description`, `date`, `username`, `nb_of _place`, `adress`) VALUES
+(1, 'Tous à table', 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', '2018-07-20', 'Gaston', 42, 'http://dummylink.com'),
+(2, 'On à faim', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.', '2018-07-21', 'Lucie', 15, '1 rue de la paix');
 
 -- --------------------------------------------------------
 
@@ -45,15 +53,21 @@ CREATE TABLE `events` (
 CREATE TABLE `pages` (
   `id` int(11) NOT NULL,
   `title` varchar(42) NOT NULL,
-  `target` varchar(242) DEFAULT NULL
+  `target` varchar(242) DEFAULT NULL,
+  `ordering` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Contenu de la table `pages`
 --
 
-INSERT INTO `pages` (`id`, `title`, `target`) VALUES
-(1, 'home', '/home');
+INSERT INTO `pages` (`id`, `title`, `target`, `ordering`) VALUES
+(1, 'Communautés', '/community', NULL),
+(2, 'Evénements', '/events', NULL),
+(3, 'Membres', '/members', NULL),
+(4, 'Forum', '/forum', NULL),
+(5, 'À table', '/table', NULL),
+(6, 'Blog', '/blog', NULL);
 
 --
 -- Index pour les tables exportées
@@ -70,7 +84,8 @@ ALTER TABLE `events`
 --
 ALTER TABLE `pages`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `title` (`title`);
+  ADD UNIQUE KEY `title` (`title`),
+  ADD UNIQUE KEY `ordering` (`ordering`);
 
 --
 -- AUTO_INCREMENT pour les tables exportées
@@ -80,12 +95,12 @@ ALTER TABLE `pages`
 -- AUTO_INCREMENT pour la table `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT pour la table `pages`
 --
 ALTER TABLE `pages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
