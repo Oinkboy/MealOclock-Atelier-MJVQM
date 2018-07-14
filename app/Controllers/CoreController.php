@@ -17,4 +17,11 @@ abstract class CoreController
     header('Content-Type: application/json');
     echo json_encode($to_display);
   }
+
+  final protected function home()
+  {
+    require(dirname(__DIR__).'/Views/header.php');
+    require(dirname(__DIR__).'/Views/home.php');
+    require(dirname(__DIR__).'/Views/footer.php');
+  }
 }
